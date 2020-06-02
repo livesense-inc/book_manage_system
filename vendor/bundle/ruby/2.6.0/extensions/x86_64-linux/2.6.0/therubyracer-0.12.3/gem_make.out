@@ -1,0 +1,214 @@
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/therubyracer-0.12.3/ext/v8
+/usr/local/rbenv/versions/2.6.5/bin/ruby -r ./siteconf20200518-409-b4s10z.rb extconf.rb
+checking for -lpthread... yes
+creating Makefile
+
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/therubyracer-0.12.3/ext/v8
+make "DESTDIR=" clean
+
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/therubyracer-0.12.3/ext/v8
+make "DESTDIR="
+compiling accessor.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling array.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling backref.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling constants.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling constraints.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling context.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling date.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling exception.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling external.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling function.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling gc.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling handles.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling heap.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling init.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling invocation.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling locker.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling message.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling object.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling primitive.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling rr.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+rr.cc: In function ‘VALUE rr::not_implemented(const char*)’:
+rr.cc:18: warning: function might be possible candidate for attribute ‘noreturn’
+At global scope:
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling script.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling signature.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling stack.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling string.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling template.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling trycatch.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling v8.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling value.cc
+cc1plus: warning: command line option "-Wimplicit-int" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1plus: warning: unrecognized command line option "-Wno-self-assign"
+cc1plus: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1plus: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1plus: warning: unrecognized command line option "-Wno-cast-function-type"
+linking shared-object v8/init.so
+
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/therubyracer-0.12.3/ext/v8
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 init.so ./.gem.20200518-409-1tvjzq6/v8

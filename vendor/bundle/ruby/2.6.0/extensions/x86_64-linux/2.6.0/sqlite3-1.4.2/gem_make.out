@@ -1,0 +1,55 @@
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.4.2/ext/sqlite3
+/usr/local/rbenv/versions/2.6.5/bin/ruby -I /usr/local/rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20200501-19910-1xac7k2.rb extconf.rb
+checking for sqlite3.h... yes
+checking for pthread_create() in -lpthread... yes
+checking for -ldl... yes
+checking for sqlite3_libversion_number() in -lsqlite3... yes
+checking for rb_proc_arity()... yes
+checking for rb_integer_pack()... yes
+checking for sqlite3_initialize()... yes
+checking for sqlite3_backup_init()... yes
+checking for sqlite3_column_database_name()... yes
+checking for sqlite3_enable_load_extension()... yes
+checking for sqlite3_load_extension()... yes
+checking for sqlite3_open_v2()... yes
+checking for sqlite3_prepare_v2()... yes
+checking for sqlite3_int64 in sqlite3.h... yes
+checking for sqlite3_uint64 in sqlite3.h... yes
+creating Makefile
+
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.4.2/ext/sqlite3
+make "DESTDIR=" clean
+
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.4.2/ext/sqlite3
+make "DESTDIR="
+compiling aggregator.c
+compiling backup.c
+compiling database.c
+database.c: In function ‘rb_sqlite3_open_v2’:
+database.c:38: warning: unused variable ‘flags’
+database.c: In function ‘exec_batch’:
+database.c:726: warning: passing argument 3 of ‘sqlite3_exec’ from incompatible pointer type
+/usr/include/sqlite3.h:316: note: expected ‘int (*)(void *, int,  char **, char **)’ but argument is of type ‘int (*)(VALUE,  int,  char **, char **)’
+database.c:726: warning: passing argument 4 of ‘sqlite3_exec’ makes pointer from integer without a cast
+/usr/include/sqlite3.h:316: note: expected ‘void *’ but argument is of type ‘VALUE’
+database.c:728: warning: passing argument 3 of ‘sqlite3_exec’ from incompatible pointer type
+/usr/include/sqlite3.h:316: note: expected ‘int (*)(void *, int,  char **, char **)’ but argument is of type ‘int (*)(VALUE,  int,  char **, char **)’
+database.c:728: warning: passing argument 4 of ‘sqlite3_exec’ makes pointer from integer without a cast
+/usr/include/sqlite3.h:316: note: expected ‘void *’ but argument is of type ‘VALUE’
+database.c: In function ‘db_filename’:
+database.c:753: warning: implicit declaration of function ‘sqlite3_db_filename’
+database.c:753: warning: assignment makes pointer from integer without a cast
+At top level:
+cc1: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1: warning: unrecognized command line option "-Wno-self-assign"
+cc1: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling exception.c
+compiling sqlite3.c
+compiling statement.c
+linking shared-object sqlite3/sqlite3_native.so
+
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.4.2/ext/sqlite3
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 sqlite3_native.so ./.gem.20200501-19910-xudqsv/sqlite3

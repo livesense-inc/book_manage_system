@@ -1,0 +1,34 @@
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/ext/puma_http11
+/usr/local/rbenv/versions/2.6.5/bin/ruby -I /usr/local/rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20200501-19910-1ix2c0o.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling io_buffer.c
+compiling mini_ssl.c
+mini_ssl.c: In function ‘engine_init_server’:
+mini_ssl.c:153: warning: ISO C90 forbids mixed declarations and code
+mini_ssl.c:158: warning: ISO C90 forbids mixed declarations and code
+mini_ssl.c:189: warning: ISO C90 forbids mixed declarations and code
+mini_ssl.c:193: warning: ISO C90 forbids mixed declarations and code
+mini_ssl.c: In function ‘raise_error’:
+mini_ssl.c:250: warning: function might be possible candidate for attribute ‘noreturn’
+At top level:
+cc1: warning: unrecognized command line option "-Wno-tautological-compare"
+cc1: warning: unrecognized command line option "-Wno-self-assign"
+cc1: warning: unrecognized command line option "-Wno-parentheses-equality"
+cc1: warning: unrecognized command line option "-Wno-constant-logical-operand"
+cc1: warning: unrecognized command line option "-Wno-cast-function-type"
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /home/websites/book_management_system/vendor/bundle/ruby/2.6.0/gems/puma-3.12.4/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20200501-19910-fwlgsw/puma
