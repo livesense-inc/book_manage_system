@@ -1,0 +1,8 @@
+<h1>図書管理システム</h1>
+<%= form_tag("/", method: "post") do %>
+ 社員番号: <input name="employee_number" type="text" maxlength="6" />
+ <br>
+ ISBN番号: <input name="isbn_number" type="text" maxlength="13"/>
+<br>
+<%= submit_tag("借りる/返す") %>
+<% end %>
