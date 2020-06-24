@@ -11,8 +11,21 @@ class TopController < ApplicationController
   end
 
   def confirm
-    json = Net::HTTP.get(url)
+    if validate(params[:isbn_number])
+      render "top/index"
+    end
   end
+
+  private
+  def validate(isbn_number)
+    if isbn_number = (str =~ /\A[0-9]+\z/)
+      if isbn_number..to_s.length == 10 || isbn_number..to_s.length == 13
+        false
+      end
+    end
+    true
+  end
+
 
   def send_slack(book_info, employee_number)
     uri = URI.parse("https://hooks.slack.com/services/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")
