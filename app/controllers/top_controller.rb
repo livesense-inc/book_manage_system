@@ -18,12 +18,14 @@ class TopController < ApplicationController
 
   private
   def validate(isbn_number)
-    if isbn_number = (str =~ /\A[0-9]+\z/)
-      if isbn_number..to_s.length == 10 || isbn_number..to_s.length == 13
-        false
+    if nil != (isbn_number =~ /\A[0-9]+\z/)
+	logger.debug(isbn_number.to_s.length)
+      if (isbn_number.to_s.length != 10 and isbn_number.to_s.length != 13)
+        return true
       end
+	return false
     end
-    true
+    false
   end
 
 
