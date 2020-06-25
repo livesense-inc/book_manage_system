@@ -5,7 +5,7 @@ class TopController < ApplicationController
   require 'logger'
 
   BOOK_SEARCH_API = 'https://api.openbd.jp/v1/get?isbn='
-  SLACK_API = 'https://hooks.slack.com/services/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'
+  SLACK_API = 'https://hooks.slack.com/services/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'
 
   def index
     json = stub_book_api()
@@ -14,9 +14,11 @@ class TopController < ApplicationController
 
   def confirm
     if validate(params[:isbn_number])
-      render "top/index"
+      @error_message = ['ISBN番号を再確認してください。10桁または13桁の数字である必要があります']
+      render "top/index" and return
+	logger.debug(validate(params[:isbn_number]))
     end
-    send_slack(get_book_info(params[:isbn_number]),params[:employee_number])
+   send_slack(get_book_info(params[:isbn_number]),params[:employee_number])
   end
 
   private
@@ -34,26 +36,21 @@ class TopController < ApplicationController
   def send_slack(book_info, employee_number)
     uri = URI.parse(SLACK_API)
     http = Net::HTTP.new(uri.host, uri.port)
-
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_NONE
-
     req = Net::HTTP::Post.new(uri.request_uri)
-    logger.debug(uri.request_uri)
-
     req["Content-Type"] = "application/json"
     data =
         {
             "text" => "社員番号:#{employee_number}\nタイトル:#{book_info[0]['summary']['title']}",
         }.to_json
     req.body = data
-    res = http.request(req)
+    http.request(req)
   end
 
   def get_book_info(isbn_number)
-    uri = BOOK_SEARCH_API+isbn_number
-    JSON.parse(Net::HTTP.get(uri))
-    
+      uri = URI.parse(BOOK_SEARCH_API+isbn_number)
+      JSON.parse(Net::HTTP.get(uri))
   end
 
   def stub_book_api()
